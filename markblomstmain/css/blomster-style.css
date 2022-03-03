@@ -1,0 +1,99 @@
+:root {
+    --groen: #2a5a43;
+    --beige: #e7e6d7; 
+    --lysgroen: #5c7860;
+    --gul: #f9eb9e;
+  }
+
+@font-face {
+    font-family: 'du nord';
+    src: url(/fonts/DuNord-Regular.otf);
+  }
+
+.blomster-flex {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blomst {
+    width: 80%;
+}
+
+.blomst-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.blomst-overskrift {
+    text-align: center;
+    margin-top: 2%;
+    padding: 0%;
+    font-size: 2em;
+    color: var(--groen);
+}
+
+.blomst-navn {
+    font-family: 'adobe-handwriting-ernie', sans-serif;
+    color: var(--groen);
+    margin: 1%;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media only screen and (min-width: 430px) {
+
+    .blomster-flex {
+        justify-content:space-evenly;
+    }
+
+    .blomst {
+        max-width: 35%;
+    }
+
+    .blomst-navn{
+        line-height: 1em;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+
+    .blomst {
+        max-width: 30%;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+    .blomst {
+        max-width: 22%;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .blomst {
+        max-width: 21%;
+    }
+
+    .blomster-flex {
+        margin-top: 1%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+   .blomst-overskrift {
+       font-size: 3em;
+   }
+
+}
+

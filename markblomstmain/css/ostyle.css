@@ -1,0 +1,195 @@
+
+.middle {
+    margin: 10%;
+}
+
+
+.o1 {
+    color: var(--groen);
+    font-size: 2em;
+    font-family: 'hwt-artz';
+    margin: 0;
+    line-height: 1em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+.o2 {
+    color: var(--lysgroen);
+    font-size: 1.3em;
+    font-family: 'adobe-handwriting-ernie';
+    margin: 0;
+    line-height: 1em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+.uoflex {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+
+.uo {
+    color: var(--groen);
+    font-size: 1.8em;
+    font-family: 'hwt-artz';
+    padding-top: 0.5em;
+    margin: 0;
+}
+
+.citat {
+    color: var(--lysgroen);
+    font-size: 1.2em;
+    font-family: 'adobe-handwriting-ernie';
+    margin: 0;
+    line-height: 1em;
+    margin-top: 0.5em;
+    margin-right: 0.8em;
+    text-align: center;
+}
+
+.flexbox-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.broedtext2 {
+    color: var(--groen);
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    padding-top: 1em;
+    font-family: 'du nord';
+    width: 100%;
+    line-height: 1.3em;
+}
+
+.bafsara {
+    width: 80%;
+    padding: 10%;
+}
+
+.fl1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.fl2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.fl3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.fl4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.b11 {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1.3em;
+    margin-bottom: 1em;
+    border-radius: 20px;
+}
+
+
+@media only screen and (min-width: 715px) {
+    .broedtext2 {
+        line-height: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+
+    .middle {
+        margin: 2%;
+    }
+
+    .broedtext2 {
+        width: 90%;
+        font-size: 1.1em;
+        margin-top: 0.5em;
+    }
+
+    .citat {
+        font-size: 1.4em;
+    }
+
+    .txom {
+        width: 50%;
+    }
+
+    .b11 {
+        width: 50%;
+    }
+
+    .uo {
+        margin-top: 0.5em;
+    }
+
+    .fl1,
+    .fl2,
+    .fl3,
+    .fl4 {
+        margin-bottom: 2em;
+    }
+
+    .flexbox-content {
+        margin-top: 2em;
+    }
+
+    .citat {
+        margin-right: 2em;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .o1 {
+        font-size: 2.5em;
+    }
+
+    .o2 {
+        font: 2em;
+    }
+
+    .broedtext2 {
+        font-size: 1.2em;
+        line-height: 1.8em;
+    }
+
+    .citat {
+        font-size: 1.6em;
+        margin-top: 1em;
+        margin-right: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .o1 {
+        font-size: 3em;
+    }
+
+    .o2 {
+        font-size: 1.6em;
+    }
+
+    .citat {
+        margin-right: 2.5em;
+    }
+}

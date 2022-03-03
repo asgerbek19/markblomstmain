@@ -1,0 +1,101 @@
+:root {
+    --groen: #2a5a43;
+    --beige: #e7e6d7; 
+    --lysgroen: #5c7860;
+    --gul: #f9eb9e;
+  }
+
+@font-face {
+    font-family: 'du nord';
+    src: url(/fonts/DuNord-Regular.otf);
+  }
+
+.kalender {
+    width: 100%;
+}
+
+.kalender-overskrift {
+    text-align: center;
+    margin-bottom: 0%;
+    font-size: 2em;
+    color: var(--groen);
+    padding-left: 0%;
+}
+
+.kalender-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kalender-boks {
+    width: 100%;
+    margin: 5%;
+    max-width: 400px;
+        
+    display: grid;         
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+
+.kalender-dato {
+    background-color: var(--groen);
+    border-radius: 20px;
+    padding: 2%;
+    z-index: 100;
+    font-family: 'adobe-handwriting-ernie', sans-serif;
+
+    grid-area: 1 / 2 / 3 / 4; 
+}
+
+.kalender-sted {
+    border-radius: 20px;
+    background-color: var(--lysgroen);
+    grid-area: 2 / 1 / 6 / 5;
+    padding-top: 15%;
+    text-align: center;
+    font-family: 'HWT Artz';
+    font-size: 1.5em;
+}
+
+.kalender-h3 {
+text-align: center;
+font-family: 'adobe-handwriting-ernie', sans-serif;
+ color: var(--gul);
+ margin-bottom: 0%;
+ margin-top: 6%;
+ 
+}
+
+@media only screen and (min-width: 715px) {
+.kalender-boks {
+    width: 100%;
+    margin: 2%;
+    max-width: 320px;
+}
+
+.kalender-overskrift {
+    padding-top: 0%;
+}
+
+}
+
+@media only screen and (min-width: 900px) {
+    .kalender-boks {
+        max-width: 400px;
+    }
+
+.kalender-h3 {
+    font-size: 1.5em;
+}
+
+    }
+
+    @media only screen and (min-width: 1200px) {
+    .kalender-overskrift {
+        font-size: 3em;
+    }
+    
+        }

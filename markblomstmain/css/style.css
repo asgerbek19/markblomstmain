@@ -1,0 +1,268 @@
+.blomsterbillede {
+    width: 80%;
+    border-radius: 20px;
+    position: relative;
+    margin: 9%;
+    box-shadow: -5px 5px 5px grey;
+}
+
+.guidebillede {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+
+.overskrift2 {
+    width: 90%;
+    font-size: 2em;
+    margin-top: 0%;
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'hwt-artz', sans-serif;
+    color: var(--groen);
+    padding-left: 5%;
+        padding-right: 5%;
+
+}
+.underoverskrift2 {
+    font-size: 2em;
+    margin-top: 0%;
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'hwt-artz', sans-serif;
+    color: var(--groen);
+
+}
+
+.tekst {
+    padding: 8%;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: var(--groen);
+    line-height: 150%;
+    font-family: 'du nord';
+    font-size: 1em;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade.appear {
+    opacity: 1;
+}
+
+
+@media only screen and (min-width: 490px) {
+    .guides {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        column-count: 2;
+    }
+    
+    #flex1 {
+        width: 45%;
+        padding-left: 6%;
+    }
+    
+    #flex2 {
+        width: 45%;
+        padding-left: 1%;
+    }
+
+    .guidebillede {
+        width: 60%;
+        margin-left: 20%;
+        border-radius: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 560px) {
+
+    .guides {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        column-count: 2;
+    }
+    
+    #flex1 {
+        width: 45%;
+        padding-left: 6%;
+    }
+    
+    #flex2 {
+        width: 45%;
+        padding-left: 1%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .blomsterbillede {
+        width: 90%;
+        border-radius: 20px;
+        position: relative;
+        margin: 2%;
+        box-shadow: -5px 5px 5px grey;
+        margin-left: 5%;
+    }
+
+
+    .tekst {
+        padding: 5%;
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        color: var(--groen);
+        line-height: 150%;
+        font-family: 'du nord';
+        font-size: 110%;
+        width: 60%;
+        margin-left: 17%;
+    }
+
+    .guides {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .guidebillede {
+        margin-left: 0%;
+        max-width: 450px;
+    }
+
+    #buketbillede {
+    margin-left: 25%;  
+}
+    
+    #flex1 {
+        width: 45%;
+        padding-left: 6%;
+        justify-content: center;
+    }
+    
+    #flex2 {
+        width: 45%;
+        padding-left: 1%;
+        justify-content: center;
+    }
+
+    .overskrift2 {
+        font-size: 2em;
+        margin-top: 0%;
+        padding-top: 2%;
+        text-align: center;
+        font-family: 'hwt-artz', sans-serif;
+        color: var(--groen);    
+    }
+
+}
+
+@media only screen and (min-width: 715px) {
+
+    .guides {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        column-count: 2;
+    }
+    
+    #flex1 {
+        width: 45%;
+        padding-left: 6%;
+    }
+    
+    #flex2 {
+        width: 45%;
+        padding-left: 1%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .guides {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        column-count: 2;
+    }
+    
+    #flex1 {
+        width: 45%;
+        padding-left: 6%;
+    }
+    
+    #flex2 {
+        width: 45%;
+        padding-left: 1%;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    .tekst {
+        padding: 5%;
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        color: var(--groen);
+        line-height: 150%;
+        font-family: 'du nord';
+        font-size: 1.2em;
+    }
+    .guides {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        column-count: 2;
+    }
+    
+    #flex1 {
+        width: 45%;
+        max-width: 450px;
+        padding: 0%;
+    }
+    
+    #flex2 {
+        width: 45%;
+        max-width: 450px;
+        padding-left: 0%;
+    }
+
+    #buketbillede {
+        margin-left: 30%;  
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .guides {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        column-count: 2;
+    }
+    
+    #flex1 {
+        width: 45%;
+        padding-left: 6%;
+    }
+    
+    #flex2 {
+        width: 45%;
+        padding-left: 1%;
+    }
+
+    #buketbillede {
+        margin-left: 35%;  
+    }
+
+}

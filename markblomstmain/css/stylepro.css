@@ -1,0 +1,188 @@
+.video {
+    border-radius: 20px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.overskrift2{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'hwt-artz',sans-serif;
+    color: #2a5a43;
+}
+
+.underoverskrift1{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'adobe-handwriting-ernie';
+    color: #2a5a43;
+}
+
+.proces-h4 {
+    text-align: left;
+    padding-left:8% ;
+    font-size: 1.5em;
+    font-family: 'hwt-artz',sans-serif;
+    color: #2a5a43; 
+}
+
+.home-intro{
+    margin-top: 20%;
+}
+.txt{
+    font-size: 1em;
+    font-family:'du nord';
+    color: var(--groen);
+    text-align: left;
+    
+}
+.btn-txt{
+    margin-bottom: 2%;
+}
+.bil1{
+    display: none;
+    width: 35%;
+}
+.bil2{
+    display: block;
+    width: 85%;
+}
+
+.procesimg{
+    width: 100%; 
+    max-width: 450px;
+    border-radius: 20px;
+}
+.process{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-fade-in {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+margin-bottom: 0%;
+text-align: center;
+}
+
+.text-pro{
+    width: 90%;
+    line-height: 1.1;
+    margin-top: 2%;
+margin-bottom: 2%;
+}
+
+.col-fade-in {
+    opacity: 0;
+    transition: opacity 1000ms ease-in;
+  }
+  .col-fade-in.appear {
+    opacity: 1;
+  }
+
+@media only screen and (min-width: 600px) {
+
+    .col-fade-in {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        
+        }
+        .bil1{
+            display: block;
+            width: 85%;
+            margin: 2%;
+        }
+        .bil2{
+            display: none;
+            width: 90%;
+        }
+        .home-intro{
+            margin-top: 5%;
+        }
+    
+        .video {
+            max-height: 400px;
+        }
+}
+
+@media only screen and (min-width: 715px) {
+
+    .col-fade-in {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        }
+
+    .text-pro{
+        width: 40%;
+        margin: 5%;
+        line-height: 1.1;
+    }
+    .bil1{
+        max-width: 300px;
+        width: 40%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+
+    .bil1{
+        width: 85%;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .proces-h4 {
+        font-size: 2em;
+    }
+
+    .bil1{
+        width: auto;
+        max-width: 550px;
+    }
+
+    .video {
+        max-height: 600px;
+    }
+
+    .text-pro {
+        margin: 2%;
+    }
+
+    .txt{
+        font-size: 1.2em;}
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .bil1{
+        width: 85%;
+    }
+   
+    .overskrift2{
+        font-size: 4em;
+    }
+    .underoverskrift1{
+        font-size: 2.5em;
+    }
+    .proces-h4{
+        font-size: 3em;
+    }
+    .txt{
+        font-size: 1.33em;
+    }
+    
+
+}
